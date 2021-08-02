@@ -14,8 +14,8 @@ val: images/val  # val images (relative to 'path') 128 images
 test:  # test images (optional)
 
 # Classes
-nc: 1 # number of classes
-names: ['turbine']  # class names
+nc: 3 # number of classes
+names: ['turbine', 'cable', 'jb']  # class names
 
 
 # Download script/URL (optional)
